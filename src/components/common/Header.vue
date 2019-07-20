@@ -22,26 +22,8 @@
 						发布
 					</el-button>
 				</router-link>
-				<router-link to="{}"  @click.native="dialogTableVisible=true">
+				<router-link to="{}">
 					本项目
-						<el-dialog title="关于本项目" :visible.sync="dialogTableVisible" width="35%">
-					       <div class="inside-dialog">
-					        <p>作者:<a href="">刘好浪</a></p>
-					        <p>
-					          源码: <i class="el-icon-star-off" ></i><a href="">&nbsp;cnode&nbsp;</a> <i class="el-icon-star-off" ></i>方便的话可以star一下！<i class="el-icon-star-off" ></i>
-					        </p>
-					        <div>
-					          <p>技术栈：</p>
-					          <ul>
-					            <li>Vue</li>
-					            <li>Vue Router</li>
-					            <li>ElementUI</li>
-					            <li>Axios</li>
-					          </ul>
-					        </div>  
-					       </div>
-					    </el-dialog> 
-
 				</router-link>					
 			</p>
 		</div>
