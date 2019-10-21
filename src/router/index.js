@@ -15,6 +15,9 @@ import article from '../pages/index/article.vue'
 import attention from '../pages/index/attention.vue'
 import boarddetail from '../pages/boarddetail.vue'
 import recommeddetail from '../components/common/RecommedDetail.vue'
+
+
+
 Vue.use(Router)
 
 const router= new Router({

@@ -58,8 +58,7 @@
 		},
 		props:['code'],
 		created(){
-			
-				this.getHotArtList();
+			this.getHotArtList();
 			window.addEventListener("scroll",this.scrollMethod);
 			
 			
